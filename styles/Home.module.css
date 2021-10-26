@@ -6,6 +6,10 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  font-family: 'Anton', sans-serif;
+  color: #eaeaea;
 }
 
 .main {
@@ -118,4 +122,12 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.night {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: rotateZ(45deg);
+  animation: sky 200000ms linear infinite;
 }

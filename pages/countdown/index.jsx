@@ -1,7 +1,5 @@
 import React from 'react';
 import moment from 'moment';
-import ReactDOM from 'react-dom'
-
 class Countdown extends React.Component {
     state = {
         days: undefined,
@@ -87,7 +85,6 @@ const SVGCircle = ({ radius }) => (
         <path
             fill="none"
             stroke="#333"
-            stroke-width="4"
             d={describeArc(50, 50, 48, 0, radius)}
         />
     </svg>
