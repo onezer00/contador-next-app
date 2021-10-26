@@ -1,34 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## CONTADOR NEXT APP
 
-## Getting Started
+O projeto foi desenvolvido para que o usuário tenha um controle sobre um determinado tempo.
+- Novas funções serão adicionadas para que o usuário possa determinar o tempo do countdown e receber uma notificação em novas features.
+- O contador de minutos e segundos será corrigido em novas features.
+- Uma nova estilização será aplicada em novas features.
 
-First, run the development server:
+Referências utilizadas para o desenvolvimento do projeto
+- [FLORIN POP](https://www.florin-pop.com/blog/2019/05/countdown-built-with-react/)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## URL DO PROJETO
+- URL - [contador-next-app](contaodr-next-app-seven.vercel.app)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## COMANDOS BÁSICOS PARA INICIAR O PROJETO
+- Iniciando projeto - ``npm init -y``
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Intalando dependências - ``npm install next react react-dom``
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Iniciar uma rota home em ``pages``
 
-## Learn More
+- Crie um comando script para ``dev`` iniciando o ``next dev`` no seu package.json
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## INICIANDO A APLICAÇÃO
+- ``npm run dev``
