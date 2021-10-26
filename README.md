@@ -10,7 +10,7 @@ Referências utilizadas para o desenvolvimento do projeto
 
 
 ## URL DO PROJETO
-- URL - [contador-next-app](contaodr-next-app-seven.vercel.app)
+- URL - [contador-next-app](contador-next-app-seven.vercel.app)
 
 ## COMANDOS BÁSICOS PARA INICIAR O PROJETO
 - Iniciando projeto - ``npm init -y``

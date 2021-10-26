@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <Contador></Contador>
+          <Contador timeTillDate="05 26 2019, 6:00 am" timeFormat="MM DD YYYY, h:mm a" />
         </h1>
       </main>
 
