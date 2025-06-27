@@ -1,25 +1,60 @@
-## CONTADOR NEXT APP
+# Contador Next App
 
-O projeto foi desenvolvido para que o usuário tenha um controle sobre um determinado tempo.
-- Novas funções serão adicionadas para que o usuário possa determinar o tempo do countdown e receber uma notificação em novas features.
-- O contador de minutos e segundos será corrigido em novas features.
-- Uma nova estilização será aplicada em novas features.
+Um contador moderno para cronometrar tarefas, desenvolvido com Next.js, React, TypeScript, Zustand e styled-components. Pronto para deploy na Vercel.
 
-Referências utilizadas para o desenvolvimento do projeto
-- [FLORIN POP](https://www.florin-pop.com/blog/2019/05/countdown-built-with-react/)
+## Estrutura do Projeto
 
+```
+contador-next-app/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── store/
+│   ├── styles/
+│   └── utils/
+├── .env
+├── next.config.js
+├── package.json
+├── tsconfig.json
+├── README.md
+└── docker-compose.yml (opcional)
+```
 
-## URL DO PROJETO
-- URL - [contador-next-app](https://contador-next-app.vercel.app)
+## Principais Tecnologias
+- Next.js 14+
+- React 18+
+- TypeScript
+- Zustand
+- styled-components
+- date-fns
+- ESLint, Prettier, Husky
+- Testing Library
 
-## COMANDOS BÁSICOS PARA INICIAR O PROJETO
-- Iniciando projeto - ``npm init -y``
+## Scripts
+- `npm run dev` — inicia o servidor de desenvolvimento
+- `npm run build` — build de produção
+- `npm run start` — inicia o servidor em produção
+- `npm run lint` — lint do código
 
-- Intalando dependências - ``npm install next react react-dom``
+## Como rodar localmente
+1. Instale as dependências:
+   ```bash
+   npm install
+   ```
+2. Rode o projeto:
+   ```bash
+   npm run dev
+   ```
 
-- Iniciar uma rota home em ``pages``
+## Deploy
+Deploy automático na Vercel. Basta conectar o repositório e seguir as instruções da plataforma.
 
-- Crie um comando script para ``dev`` iniciando o ``next dev`` no seu package.json
+## Testes
+- Em breve: testes de componentes com Testing Library.
 
-## INICIANDO A APLICAÇÃO
-- ``npm run dev``
+---
+
+Sinta-se à vontade para contribuir!
